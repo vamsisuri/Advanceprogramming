@@ -1,0 +1,13 @@
+from collections import  deque,namedtuple
+# t1=('Rahul',10,290,5,8900)
+# person=namedtuple("p","name age place")
+# x=person("Raju",23,"banglore")
+# hcl=namedtuple("Developers","name level languages",defaults=["jr","c"])
+# dev=hcl("steve","Inrt")
+#print(dev)
+dq=deque()
+#print(data)
+dq.append(10)
+dq.append(20)
+dq.appendleft(30)
+print(dq)

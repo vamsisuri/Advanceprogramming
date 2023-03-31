@@ -1,0 +1,11 @@
+import numpy as np
+a=np.array([[[4,2,3],[1,2,9],[6,2,5]]])
+b=np.array([[[4,2,3],[1,2,9],[6,2,5]]])
+# print(np.linalg.det(a))
+# print(np.dot(a,b))
+# ar1=np.array([[3,2],[5,11]])
+# ar2=np.array([8,15])
+# print(np.linalg)
+arr2=np.arange(12).reshape(4,3)
+print(arr2)
+print(arr2[1:3,:2])
